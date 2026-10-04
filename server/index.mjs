@@ -35,8 +35,8 @@ app.get('/api/health', (_req, res) => {
   res.json({
     ok: true,
     hasKey: Boolean(process.env.GEMINI_API_KEY),
-    textModel: process.env.GEMINI_TEXT_MODEL || 'gemini-3.8-flash',
-    imageModel: process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image',
+    textModel: process.env.GEMMA_MODEL || process.env.GEMINI_TEXT_MODEL || 'gemma-4-26b-a4b-it',
+    imageModel: process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image',
   })
 })
 
