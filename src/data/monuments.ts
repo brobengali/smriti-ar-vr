@@ -1730,7 +1730,7 @@ export const monuments: Monument[] = [
     then: [
       { type: 'plinth', w: 120, d: 22, h: 4, steps: 1, color: SANDSTONE },
       ...range(6).map((i): Part => ({ type: 'box', w: 10, h: 12, d: 18, p: [-50 + i * 20, 4, 0], color: '#8b6b47' })),
-      ...range(6).map((i): Part => ({ type: 'arch', w: 7, h: 10, d: 1.2, p: [-50 + i * 20, 4, -9], color: '#7a5c3a' })),
+      ...range(6).map((i): Part => ({ type: 'archwall', w: 7, h: 10, d: 1.2, arches: 1, p: [-50 + i * 20, 4, -9], color: '#7a5c3a' })),
       { type: 'stupa', r: 3.5, chhatra: true, p: [-30, 4, -6], color: LIMESTONE, label: 'Chaitya hall stupa (Cave 9)' },
       { type: 'stupa', r: 3.5, chhatra: true, p: [10, 4, -6], color: LIMESTONE, label: 'Chaitya hall stupa (Cave 19)' },
       { type: 'water', w: 14, d: 8, p: [0, 0, 18] },
@@ -1738,7 +1738,7 @@ export const monuments: Monument[] = [
     now: [
       { type: 'plinth', w: 120, d: 22, h: 4, steps: 1, color: SANDSTONE },
       ...range(6).map((i): Part => ({ type: 'box', w: 10, h: 11, d: 18, p: [-50 + i * 20, 4, 0], color: '#7a5c3a' })),
-      ...range(6).map((i): Part => ({ type: 'arch', w: 7, h: 9, d: 1.2, broken: 0.2, p: [-50 + i * 20, 4, -9], color: '#6a4e35' })),
+      ...range(6).map((i): Part => ({ type: 'archwall', w: 7, h: 9, d: 1.2, arches: 1, p: [-50 + i * 20, 4, -9], color: '#6a4e35' })),
       { type: 'stupa', r: 3.5, chhatra: true, p: [-30, 4, -6], color: LIMESTONE },
       { type: 'stupa', r: 3.5, chhatra: true, p: [10, 4, -6], color: LIMESTONE },
       { type: 'water', w: 14, d: 8, p: [0, 0, 18] },
