@@ -161,10 +161,14 @@ if (fs.existsSync(dist)) {
   app.get(/^(?!\/api).*/, (_req, res) => res.sendFile(path.join(dist, 'index.html')))
 }
 
-app.listen(PORT, () => {
-  console.log(`[server] Bharat Virasat API listening on http://localhost:${PORT}`)
-  if (!process.env.GEMINI_API_KEY) console.warn('[server] GEMINI_API_KEY missing — copy .env.example to .env')
-})
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`[server] Bharat Virasat API listening on http://localhost:${PORT}`)
+    if (!process.env.GEMINI_API_KEY) console.warn('[server] GEMINI_API_KEY missing — copy .env.example to .env')
+  })
+}
+
+export default app
 
 function safeJson(text) {
   if (!text) return null
