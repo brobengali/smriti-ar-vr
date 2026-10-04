@@ -1,0 +1,39 @@
+id: lotus-mahal
+name:
+  en: Lotus Mahal (Kamal Mahal)
+  hi: लोटस महल (कमल महल)
+  ta: தாமரை அரண்மனை
+  bn: পদ্ম মহল
+  kn: ಕಮಲ ಮಹಲ್ (ತಾವರೆ ಮಹಲ್)
+location:
+  lat: 15.3204
+  lng: 76.4718
+  site: Zenana Enclosure, Hampi Royal Centre
+  state: Karnataka
+era: Vijayanagara Empire (Aravidu Dynasty, mid-16th Century CE)
+built_by: Vijayanagara Royal Court / Aravidu Kings
+status: intact
+description:
+  en: "SAMPLE - needs scholar review. Symmetrical two-storey pleasure pavilion blending Indo-Islamic cusped archways with Hindu stepped pyramidal roof towers. Features 24 square pillars and an ingenious terracotta water-pipe air conditioning system running through the walls."
+  hi: "नमूना - विद्वान समीक्षा आवश्यक। हिंदू और इस्लामी वास्तुकला का सुरम्य संगम, जिसमें 24 खंभे और दीवार के भीतर टेराकोटा पाइप से शीतलन व्यवस्था थी।"
+  kn: "ಮಾದರಿ - ವಿದ್ವಾಂಸರ ಪರಿಶೀಲನೆ ಅಗತ್ಯ. ಇಸ್ಲಾಮಿಕ್ ಕಮಾನುಗಳು ಮತ್ತು ಹಿಂದೂ ಶಿಖರಗಳ ಸಮನ್ವಯದ ಅದ್ಭುತ ಅರಮನೆ."
+timeline:
+  - year: 1542
+    event: Erected within the Zenana Enclosure as a secular royal council chamber and summer retreat for the queen and noblewomen.
+    kind: build
+  - year: 1565
+    event: Escaped wholesale demolition due to its secular architectural style distinct from the sacred shrines.
+    kind: milestone
+  - year: 1912
+    event: Archaeological survey of the wall conduits reveals internal subterranean water channels.
+    kind: restore
+  - year: 1986
+    event: Included in the UNESCO World Heritage Group of Monuments at Hampi.
+    kind: milestone
+reconstruction:
+  model_path: models/lotus-mahal.glb
+  confidence: inferred
+  evidence_notes: "SAMPLE - needs scholar review. The structural pavilion survives intact; 3D reconstruction reconstructs the lost lime-plaster stucco filigree, silk curtains hanging from external stone rings, and continuous water fountain cascades inferred from contemporary Deccani Sultanate and Vijayanagara royal pavilions."
+  reviewer: "Hampi Research Project / SAMPLE"
+  review_date: "2026-03-22"
+scholar_review_status: needs_review

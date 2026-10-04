@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://smriti-ar.org/schemas/source.schema.json",
+  "title": "Bibliographic Source Entry",
+  "type": "object",
+  "required": ["id", "title", "author", "year", "citation", "type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for citation referencing in AI responses, e.g. 'ASI-1904'"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the work, epigraph, or archaeological field report"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author, epigrapher, surveyor, or institutional body"
+    },
+    "year": {
+      "type": ["integer", "string"],
+      "description": "Publication or recording year"
+    },
+    "citation": {
+      "type": "string",
+      "description": "Full formal citation, volume, folio, or inscription reference"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Digital archive link or institutional repository URL if available"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["epigraph", "survey_report", "book", "academic_paper", "travelogue", "archival_photo"],
+      "description": "Classification of the primary or secondary source"
+    }
+  },
+  "additionalProperties": false
+}

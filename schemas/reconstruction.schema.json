@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://smriti-ar.org/schemas/reconstruction.schema.json",
+  "title": "Monument Reconstruction Evidence",
+  "type": "object",
+  "required": ["model_path", "confidence", "evidence_notes", "reviewer", "review_date"],
+  "properties": {
+    "model_path": {
+      "type": "string",
+      "description": "Path to the 3D model asset (.glb)"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["documented", "inferred", "speculative"],
+      "description": "Archaeological confidence classification"
+    },
+    "evidence_notes": {
+      "type": "string",
+      "description": "Scholarly rationale detailing surviving basework, dynastic analogues, or textual citations"
+    },
+    "reviewer": {
+      "type": "string",
+      "description": "Scholar or institutional reviewer identifier (e.g. 'ASI Regional Circle / SAMPLE')"
+    },
+    "review_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the archaeological review"
+    }
+  },
+  "additionalProperties": false
+}

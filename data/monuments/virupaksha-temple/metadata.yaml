@@ -1,0 +1,42 @@
+id: virupaksha-temple
+name:
+  en: Virupaksha Temple
+  hi: विरूपाक्ष मंदिर
+  ta: விருபாக்ஷா கோவில்
+  bn: বিরূপাক্ষ মন্দির
+  kn: ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯ
+location:
+  lat: 15.3353
+  lng: 76.4600
+  site: Hampi Sacred Centre
+  state: Karnataka
+era: Vijayanagara Empire (Sangama & Tuluva Dynasties, 7th–16th Century CE)
+built_by: Sage Vidyaranya, expanded by Deva Raya II and Krishnadevaraya
+status: intact
+description:
+  en: "SAMPLE - needs scholar review. Continuous living temple dedicated to Shiva as Virupaksha on the southern bank of the Tungabhadra River. Features a 50-metre eastern gopuram, pillared ranga mandapa, and inverted pinhole shadow optical phenomenon."
+  hi: "नमूना - विद्वान समीक्षा आवश्यक। तुंगभद्रा नदी के तट पर भगवान शिव को समर्पित निरंतर पूजा का जीवंत मंदिर।"
+  kn: "ಮಾದರಿ - ವಿದ್ವಾಂಸರ ಪರಿಶೀಲನೆ ಅಗತ್ಯ. ತುಂಗಭದ್ರಾ ನದಿಯ ದಡದಲ್ಲಿರುವ ಶ್ರೀ ವಿರೂಪಾಕ್ಷನ ಸಕ್ರಿಯ ದೇವಾಲಯ ಸಂಕೀರ್ಣ."
+timeline:
+  - year: 700
+    event: Earliest shrine foundations during Chalukyan and Rashtrakuta eras.
+    kind: build
+  - year: 1336
+    event: Foundation of Vijayanagara capital under Sage Vidyaranya and Sangama brothers.
+    kind: milestone
+  - year: 1510
+    event: Emperor Krishnadevaraya commissions the 50m Rajagopuram and grand pillared Ranga Mandapa upon his coronation.
+    kind: build
+  - year: 1565
+    event: Battle of Talikota and subsequent sacking of Vijayanagara; sanctum survived continuous worship.
+    kind: destroy
+  - year: 1986
+    event: Inscribed as a UNESCO World Heritage Site (Group of Monuments at Hampi).
+    kind: restore
+reconstruction:
+  model_path: models/virupaksha-temple.glb
+  confidence: documented
+  evidence_notes: "SAMPLE - needs scholar review. Ground plan and extant superstructure are documented in ASI Epigraphia Carnatica Vol. IX and A.H. Longhurst's Hampi Ruins (1917). Golden pinnacle kalasha and Krishnadevaraya court murals verified by epigraphical records."
+  reviewer: "ASI Archaeological Research Group / SAMPLE"
+  review_date: "2026-03-15"
+scholar_review_status: needs_review

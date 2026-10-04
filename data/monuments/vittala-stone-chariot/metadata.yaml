@@ -1,0 +1,42 @@
+id: vittala-stone-chariot
+name:
+  en: Vittala Temple Stone Chariot
+  hi: विट्ठल मंदिर का पत्थर का रथ
+  ta: விட்டலா கோவில் கல் தேர்
+  bn: বিট্টল মন্দিরের পাথরের রথ
+  kn: ವಿಜಯ ವಿಠ್ಠಲ ಕಲ್ಲಿನ ರಥ
+location:
+  lat: 15.3385
+  lng: 76.4795
+  site: Hampi Sacred Centre
+  state: Karnataka
+era: Vijayanagara Empire (Tuluva Dynasty, 16th Century CE)
+built_by: Emperor Krishnadevaraya (r. 1509–1529 CE)
+status: ruined
+description:
+  en: "SAMPLE - needs scholar review. Iconic monolithic shrine built in the form of a ceremonial temple chariot (ratha) dedicated to Garuda within the grand Vijaya Vittala temple complex. Originally possessed a multi-tiered brick-and-mortar shikhara tower dismantled in late 19th-century preservation efforts."
+  hi: "नमूना - विद्वान समीक्षा आवश्यक। गरुड़ को समर्पित मंदिर रथ के आकार में गढ़ा गया उत्कृष्ट पाषाण शिल्प, जिसके ऊपर मूल रूप से ईंट-गारे का शिखर था।"
+  kn: "ಮಾದರಿ - ವಿದ್ವಾಂಸರ ಪರಿಶೀಲನೆ ಅಗತ್ಯ. ವಿಜಯ ವಿಠ್ಠಲ ಸಂಕೀರ್ಣದ ಗರುಡ ರಥ. ಮೂಲತಃ ಇಟ್ಟಿಗೆ-ಗಾರೆ ಶಿಖರವನ್ನು ಹೊಂದಿತ್ತು."
+timeline:
+  - year: 1513
+    event: Emperor Krishnadevaraya returns victorious from the Odisha Gajapati campaign and orders the chariot shrine built.
+    kind: build
+  - year: 1554
+    event: King Aliya Rama Raya dedicates surrounding musical stone pillars and kalyana mandapa.
+    kind: build
+  - year: 1565
+    event: Vijayanagara fall; stone wheels and surrounding shrines suffered burn marks and idol removal.
+    kind: destroy
+  - year: 1890
+    event: British Presidency conservators dismantle the cracked stucco shikhara to prevent collapse of granite wheels.
+    kind: restore
+  - year: 1986
+    event: Inscribed on UNESCO World Heritage List; depicted on India's 50-rupee currency note.
+    kind: milestone
+reconstruction:
+  model_path: models/vittala-stone-chariot.glb
+  confidence: documented
+  evidence_notes: "SAMPLE - needs scholar review. The lost tiered brick-and-mortar shikhara is verified in 1856 albumen photographs by Alexander Greenlaw (National Science and Media Museum collection) and early British Survey drawings showing the superstructure intact."
+  reviewer: "ASI Archaeological Survey / SAMPLE"
+  review_date: "2026-03-20"
+scholar_review_status: needs_review

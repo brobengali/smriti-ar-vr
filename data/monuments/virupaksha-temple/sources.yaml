@@ -1,0 +1,21 @@
+- id: ASI-HAMPI-1917
+  title: Hampi Ruins Described and Illustrated
+  author: A. H. Longhurst
+  year: 1917
+  citation: Superintendent, Archaeological Survey Department, Southern Circle, Madras Government Press, pp. 95-108.
+  url: https://archive.org/details/hampiruinsdescri00long
+  type: survey_report
+
+- id: EC-VOL-IX
+  title: Epigraphia Carnatica Volume IX
+  author: B. Lewis Rice
+  year: 1905
+  citation: Mysore Archaeological Series, Epigraphs of the Vijayanagara Rulers at Hampi, Inscription No. 129.
+  type: epigraph
+
+- id: SEWELL-1900
+  title: A Forgotten Empire (Vijayanagar)
+  author: Robert Sewell
+  year: 1900
+  citation: Swan Sonnenschein & Co., London, Translation of Domingos Paes and Fernao Nuniz chronicles, pp. 240-275.
+  type: book
